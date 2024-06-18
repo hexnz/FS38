@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerPrincipal{
+    display: flex;
+    background: linear-gradient(90deg, rgba(7,5,32,1) 0%, rgba(20,103,179,1) 62%, rgba(16,179,213,1) 91%, rgba(0,194,232,1) 100%);    width: 30vw;
+    height:60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.FotoPrincipal{
+    position: relative;
+    width: 28vw;
+    height: 36vh;
+}
+.Foto{
+    height: 21rem;
+}
+.Foto a p{
+   top: 32rem;
+   left: 42rem;
+   color: rgb(249, 250, 249);
+   margin-left: 0.4rem;
+}
+.Foto a{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 14vw;
+    height: 4vh;
+    bottom: 3.5rem;
+    text-decoration: none;
+    background-color: rgb(9, 44, 121);
+    border-radius:0rem 2rem 2rem 0rem;
+}
+.logoPais{
+   
+    width: 2.1rem;
+    height:2.1rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+.descricaoProduto{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 28vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+}
+.descricaoProduto h2{
+    position: relative;
+    bottom: 2.0rem;
+    font-size: 1.5rem;
+}
+#priceStatus{
+    display: flex;
+    width: 25vw;
+   justify-content: space-between;
+   margin-bottom: 3rem;
+   font-size: 1.2rem;
+   box-shadow: 1px 1px 2px 1px rgba(3, 5, 5, 0.753);
+   background: linear-gradient(90deg, rgba(7,5,32,1) 0%, rgba(20,103,179,1) 62%, rgba(16,179,213,1) 91%, rgba(0,194,232,1) 100%);
+   border-radius: 1rem;
+   padding: 0.5rem;
+}
+#priceStatus a{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+}
+
