@@ -1,0 +1,4 @@
+CARD SIMPLES CRIADO COM O INTUITO DE PRATICAR HTML E CSS.
+
+
+![image](https://github.com/hexnz/FS38/assets/75985161/46cb0e9e-215e-410f-8e78-401062808d53)
