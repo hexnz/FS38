@@ -14,7 +14,8 @@ header{
     justify-content: space-around;
     list-style: none;   
     width: 100%;
-    height:5%;
+    height:2%;
+    padding: 1rem;
     font-weight: 100;
     font-style: normal;
     color:rgba(80, 95, 152, 1);
@@ -25,18 +26,14 @@ header li a{
 }
 
 body{
-height: 300vh;
-background-image:url(./Imagens/Path.png);
-background-repeat: no-repeat;
-background-position: cover;
-background-position-x:30rem;
-
+height: 450vh;
 }
 .buttonHeader{
     background-color: #111B47;
     color: #FFFFFF;
     width: 10%;
-    height: 22%;
+    height: 60%;
+    border-radius: 0.2rem;
 }
 .listLeft{
     display: flex;
@@ -44,42 +41,35 @@ background-position-x:30rem;
 }
 main{
     display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+    flex-direction:column;
+    gap: 15rem;
     width: 100%;
-    height: 50%;
-   
+    height: 23%;
+  
 
 }
-.imageMain{
-    width:50%;
 
-    
-}
 .introHeader{
     display: flex;
+    position: relative;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    width: 50%;
-    height: 60%;
-    margin-left: 10rem;
-    margin-bottom: 5rem;
+    width: 40%;
+    left: 10rem;
+    top: 15rem;
+    height:50vh;
+    gap: 1rem;
 
 }
 .buttonsOptionMain{
     display: flex;
-    margin-top: 1rem;
+    width: 70%;   
+    height: 2rem; 
     gap: 2rem;
-    width: 30vw;
-    height:25vh;
-    margin-right: 5rem;
+
 }
 .buttonMain{
     width: 50%;
-    height: 15%;
+    height: 100%;
     background-color:rgba(17, 27, 71, 1);
     color: #FFFFFF;
     border: solid 0.1rem black;
@@ -87,8 +77,7 @@ main{
 }
 .buttonMain2{
     width: 50%;
-    height: 15%;
-    background-color:none;
+    background-color:transparent;
     border: solid 0.1rem black;
     color: #111B47;
     font-weight: 600;
@@ -101,10 +90,126 @@ h1{
     margin-bottom: 2rem;
 }
 p{
-
+   color:  rgba(80, 95, 152, 1);
 }
 #headerLanding{
     font-weight: bold;
     font-size: 20px;
     color:  #111B47;
+}
+#backImage{
+    width: 100%;
+    height: 100%;
+}
+#frontImage{
+    position: relative;
+    height: 75vh;
+    left: 38rem;
+    bottom: 50rem;
+}
+.imagemFundo{
+    width: 62%;
+    height: 100%;
+    position:absolute;
+    z-index:-1;
+    right:0;
+    top: 0;
+}
+/* Primeira Section Depois da Main */
+.section02{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    align-items: center;
+    gap: 10rem;
+    
+}
+.containerSection02{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    align-items: center;
+    width: 40%;
+    left: 10rem;
+    top: 10rem;
+    height:50vh;
+    gap: 2rem;
+    color: rgba(80, 95, 152, 1);
+}
+.imageSection02{
+    width: 100%;
+    height:50rem;
+}
+.iconSection02{
+    display: flex;
+    gap: 2.5rem ;
+    width: 100%;
+    margin-top: 2rem;
+   
+}
+.tittleSections{
+    font-size: 2rem;
+    color:rgba(17, 27, 71, 1);
+    font-weight: 500;
+}
+.subTittle{
+    color:rgba(17, 27, 71, 1);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.cardSection2{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+.normalText{
+    color: black;
+}
+.SimilarSections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    height: 20%;
+    gap:2rem;
+}.imgSection03{
+    width: 80%;
+    
+}
+.imageBoxSectionSimilar{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    left: 10rem;
+    z-index: -1;
+}
+.boxTextSection{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 2rem;
+}
+.footer01{
+    width: 100%;
+    height: 30vh;
+    top:5rem;
+}
+.imgBoxFooter{
+    width: 100%;
+    z-index: -1;
+    position: relative;
+    height: 20rem;
+    
+}
+
+.textFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+   
 }
