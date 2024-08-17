@@ -24,7 +24,7 @@ function createProduts() {
         {
 
             const tableRoll=[j];
-            const tableRoll=document.createElement("tr");
+            tableRoll=document.createElement("tr");
     
     for(let i=0;i<6;i++){
 

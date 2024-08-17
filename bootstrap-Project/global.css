@@ -2,9 +2,30 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--textColorNormal);
 }
 :root{
 --thead:rgb(77, 20, 168);
+--backColorBlue: rgb(22, 131, 156);
+--backColorBlack: rgb(38, 49, 51);
+--textColorNormal:rgb(208, 208, 208);
+--font-familly-Ubuntu:"Ubuntu", sans-serif;
+--fontSizeMd:italic 1.4rem/120% var(--font-familly-Ubuntu);
+--fontSizeLg:normal 2rem/120% var(--font-familly-Ubuntu);
 
+}
+.dflexColum{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1rem;
+}
+.fontSizeMd{
+    font:var(--fontSizeMd);
+}
+.bgBlue{
+    background-color: var(--backColorBlue) !important;
+}
 
+.bgBlack{
+    background-color: var(--backColorBlack) !important;
 }
