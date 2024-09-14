@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    background-color: rgb(28, 172, 28);
+    width: 60%;
+    height: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    position: relative;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border: none;
+    border: red 1px solid;
+    width: 20%;
+}
