@@ -1,0 +1,17 @@
+header{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-direction: column;
+}
+div{
+  width: 100%;
+  display: flex;
+
+}
+input{
+  width: 10rem;
+}
+select{
+  width: 10rem;
+}
